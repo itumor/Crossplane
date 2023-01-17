@@ -1,8 +1,7 @@
-
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: 'Crossplane-Providers'
+  name: 'crossplane-providers'
 spec:
   project: default
   source:
