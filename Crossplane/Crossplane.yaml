@@ -9,8 +9,8 @@ spec:
     targetRevision: 1.11.0-rc.0.99.g9850b98e
     chart: crossplane
   destination:
-    server: 'https://kubernetes.docker.internal:6443'
-    namespace: cross
+    server: 'https://kubernetes.default.svc'
+    namespace: crossplane-system
   syncPolicy:
     syncOptions:
       - CreateNamespace=true

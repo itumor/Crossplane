@@ -12,7 +12,7 @@ spec:
       recurse: true
       jsonnet: {}
   destination:
-    server: 'https://kubernetes.docker.internal:6443'
+    server: 'https://kubernetes.default.svc'
   syncPolicy:
     automated:
       prune: true
